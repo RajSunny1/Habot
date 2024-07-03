@@ -1,0 +1,76 @@
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E8FBFF; /* Adjust color to match your design */
+
+    margin: 30px;
+    padding: 20px;
+    /* border: 1px solid #e0f7fa;  */
+    /* Adjust border color to match the background */
+    width: 1512px;
+    height: 254px;
+    
+
+
+
+  }
+  .main-div:hover {
+    border: 3px solid #19c8eb;
+
+    border-color: 2px solid blue; /* Change border color on hover */
+  }
+  
+  .text-div h1 {
+    position: relative;
+     
+    font-family: Poppins;
+   font-size: 37.34px;
+   font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+
+  }
+  
+
+
+
+  .underline1 {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .underline1::after {
+    content: '';
+    display: block;
+    width: 100%; /* Adjust width as needed */
+    border-bottom: 3px solid #EB7150; /* Adjust border color and width */
+
+    position: absolute;
+    left: 0;
+    /* bottom: -5px;  */
+    /* Adjust position as needed */
+  }
+  
+  .button-div button {
+    background-color: #f96d5b; /* Adjust button color */
+    color: white;
+   
+    
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+    width: 216px;
+    height: 54px;
+    top: 107px;
+    left: 1060px;
+    padding: 0px 52px 0px 52px;
+   
+    border-radius: 5px 0px 0px 0px;
+    
+    
+  }
+  
+  .button-div button:hover {
+    background-color: #e85a49; /* Adjust hover color */
+  }
+  

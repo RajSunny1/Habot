@@ -1,0 +1,100 @@
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background-color: white;
+  }
+  
+  .left-section {
+    max-width: 50%;
+  }
+  
+  .left-section h1{
+    font-family: Poppins;
+    font-size: 37.34px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+  
+  .highlight {
+   color: #271555;
+; /* Example color, adjust as necessary */
+  }
+  
+  p {
+     padding-top: 15px;
+    margin-bottom: 1em;
+    font-family: Poppins;
+    font-size: 17.16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+
+  }
+  
+  .signup-button {
+    margin-top: 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #28a745; /* Example color, adjust as necessary */
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 317px;
+    height: 54px;
+    top: 940px;
+    left: 102px;
+    padding: 0px 70.44px 0px 43px;
+   
+     border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+
+  }
+   
+  
+  .signup-button:hover {
+    background-color: #218838; /* Example color, adjust as necessary */
+  }
+  
+  .right-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;width: 541px;
+    height: 244px;
+    top: 723px;
+   left: 872px;
+    gap: 8px;
+    border-radius: 5px 0px 0px 0px;
+   border: 1px 0px 0px 0px;
+    
+    
+
+  }
+  
+  .location-button {
+    /* padding: 0.75em; */
+    text-align: center;
+    border: 1px solid #FF9800; /* Example color, adjust as necessary */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 260px;
+    height: 65px;
+    top: 812px;
+    left: 1153px;
+    padding: 17px 0px 16px 0px;
+
+    border-radius: 5px 0px 0px 0px;
+     
+
+
+  }
+  
+  .location-button:hover {
+    background-color: #FF9800; /* Example color, adjust as necessary */
+    color: white;
+  }
+  
