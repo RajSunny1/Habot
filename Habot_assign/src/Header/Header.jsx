@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
       <img src={logoImage} alt="Logo" />
-      </div>
+      </div> 
       <nav className="nav">
         <ul className="nav-list">
           <li>Find Suppliers</li>
