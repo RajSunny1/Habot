@@ -1,6 +1,6 @@
 
 import './Profile.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 function Profile1() {
